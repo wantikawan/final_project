@@ -4,8 +4,9 @@ import Header from "./Header";
 import Movie from "./Movie";
 import spinner from "../assets/ajax-loader.gif";
 import Search from "./Search";
-
+import { initialState, reducer } from "../store/reducer";
 import axios from "axios";
+import "../App.css";
 
 const MOVIE_API_URL = "https://www.omdbapi.com/?s=man&apikey=4a3b711b";
 
